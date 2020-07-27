@@ -213,6 +213,11 @@ main div.mantainers div.profiles img {
   border-radius: 50%;
 }
 
+main div.mantainers div.profiles a {
+  color: var(--halstack-main-color);
+  text-decoration: none;
+}
+
 main div.mantainers div.profiles h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
