@@ -197,16 +197,20 @@ main div.mantainers div.profiles {
   display: flex;
   justify-content: space-between;
   margin-right: 11%;
+  flex-wrap: wrap;
 }
 
 main div.mantainers div.profiles > div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: calc(72% / 5);
+  margin-bottom: 48px;
 }
 
 main div.mantainers div.profiles img {
-  width: 80%;
+  width: 70%;
+  border-radius: 50%;
 }
 
 main div.mantainers div.profiles h4 {
@@ -339,7 +343,12 @@ footer div.dxc-reference p {
       justify-content: space-around;
   }
   main div.mantainers div.profiles > div {
-      margin-bottom: 48px
+      margin-bottom: 48px;
+      width: calc(100% / 3);
+  }
+
+  main div.mantainers div.profiles > div img {
+    width: 50%;
   }
 
   footer div.navigation > div > div {
@@ -433,10 +442,12 @@ footer div.dxc-reference p {
 
   main div.mantainers div.profiles > div {
     margin-bottom: 64px;
+    width: 100%;
   }
 
   main div.mantainers div.profiles img {
     width: 48%;
+    border-radius: 50%;
   }
 
   form {
