@@ -129,7 +129,7 @@ main > div button:hover {
 
 main div.tools-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: calc(100% - 11%);
   margin-top: 80px;
 }
