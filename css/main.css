@@ -210,17 +210,16 @@ main div.mantainers {
 }
 
 main div.mantainers div.profiles {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-right: 11%;
-  flex-wrap: wrap;
 }
 
 main div.mantainers div.profiles > div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(72% / 5);
+  width: 72%;
   margin-bottom: 48px;
 }
 
@@ -360,13 +359,13 @@ footer div.dxc-reference p {
   }
 
   main div.mantainers div.profiles {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       margin-right: 0;
-      flex-wrap: wrap;
-      justify-content: space-around;
   }
   main div.mantainers div.profiles > div {
+      width: 100%;
       margin-bottom: 48px;
-      width: calc(100% / 3);
   }
 
   main div.mantainers div.profiles > div img {
@@ -457,9 +456,9 @@ footer div.dxc-reference p {
   }
 
   main div.mantainers div.profiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-right: 0;
-    flex-direction: column;
-    flex-wrap: nowrap;
   }
 
   main div.mantainers div.profiles > div {
