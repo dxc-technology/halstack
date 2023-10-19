@@ -88,6 +88,15 @@ main > div > a > h2 {
   font-family: "Work Sans", sans-serif;
   font-size: 36px;
   font-weight: 500;
+
+  .experimental-badge {
+    margin-left: 10px;
+    background-color: #fbe89d; /* Background color */
+    color: #000; /* Text color */
+    font-size: 12px;
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+  }
 }
 
 main > div > h2 img,
